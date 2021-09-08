@@ -21,6 +21,7 @@ body {
         align-items: center;
         position: fixed;
         z-index: 2;
+        top: 0;
         a {
             font-size: 17px;
             color: white;
@@ -108,6 +109,15 @@ body {
             font-size: 40px;
             font-weight: 200;
             margin-bottom: 20px;
+        }
+        .text {
+            color: white;
+            width: 80%;
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-align: left;
+            font-weight: 300;
         }
         .video {
             width: 967px;
