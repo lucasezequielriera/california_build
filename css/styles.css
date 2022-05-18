@@ -105,6 +105,10 @@ body #meet-us {
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: -webkit-center;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 body #meet-us .title {
   color: white;
@@ -300,6 +304,7 @@ body #footer .social-networks {
 body #footer .social-networks a {
   margin-right: 5px;
   margin-left: 5px;
+  text-decoration: none;
 }
 body #footer .social-networks a img {
   width: 30px;
@@ -307,6 +312,38 @@ body #footer .social-networks a img {
 body #footer p {
   text-align: center;
   color: white;
+}
+body .whatsapp {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 60px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+body .whatsapp .whatsapp-icon {
+  margin-top: 10px;
+}
+body .email {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 0px;
+  right: 40px;
+  background-color: white;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+body .email img {
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */

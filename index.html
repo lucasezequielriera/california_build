@@ -3,8 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<title>California Builders</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./css/styles.css">
+	<!-- metasFede -->
+	<meta name="description" content="Construction And Remodeling Services in California">
+	<meta name="keywords" content="Remodeling Company, construction Estimates, Restyling company, Houses Construction, home remodeling, California Builders, residential remodeling company">
+	<meta name="author" content="Agrowd">
 </head>
+
 <body>
 	<nav id="nav">
 		<a href="./index.html">Home</a>
@@ -14,7 +20,7 @@
 			<img src="./assets/images/california_logo.png" alt="logo" width="300px">
 		</a>
 		<a href="./estimate.html">Free Estimate</a>
-		<a href="./faq.html">FAQ</a>
+		<a href="./tiny.html">Tiny Houses</a>
 		<a href="./contact.html">Contact</a>
 	</nav>
 	<header id="header">
@@ -22,7 +28,7 @@
 			<h1>Home is where your is...</h1>
 			<h5>WE WILL MAKE YOUR HOME BEAUTIFUL</h5>
 			<p>We have the best estimates and materials so you can renovate your home and have the best comfort in the process, from different parts of the United States to your home.</p>
-			<a href="">Call Us Today to (213) 463-8151</a>
+			<a href="tel:+12136526136">Click here to Call Us (213) 652-6136</a> 
 		</div>
 	</header>
 	<section id="circles-features">
@@ -76,12 +82,12 @@
 	<section id="contact">
 		<h1 class="title">Contact us</h1>
 		<div class="container-data">
-			<form class="form" action="#">
-				<input type="text" placeholder="First name">
-				<input type="text" placeholder="Last name">
-				<input type="numer" placeholder="Phone">
-				<input type="email" placeholder="Email">
-				<textarea name="message" id="" cols="30" rows="10" placeholder="Write your message"></textarea>
+			<form class="form" action="./php/contact.php" method="POST">
+				<input type="text" placeholder="First name" name="first_name">
+				<input type="text" placeholder="Last name" name="last_name">
+				<input type="number" placeholder="Phone" name="phone">
+				<input type="email" placeholder="Email" name="email">
+				<textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message"></textarea>
 				<input type="submit" value="Enviar mensaje">
 			</form>
 			<div class="schedules">
@@ -121,5 +127,9 @@
 		<p>© 2021 All rights reserved - Designed & Ingeneered by Agrowd</p>
 	</section>
 
+	<a href="https://api.whatsapp.com/send/?phone=2136526136&text=I%20would%20like%20to%20know%20more,%20please!" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+	<a href="mailto: californiabuilders@tooeshop.com" class="email" target="_blank"><img src="./assets/icons/email_flotante.png" width="25px"></a>
+
+	<script src="./js/main.js"></script>
 </body>
 </html>
